@@ -1,0 +1,27 @@
+# ignore terraform state files
+*.tfstate
+*.tfstate.*
+
+# ignore crash log files
+crash.log
+crash.*.log
+
+# ignore the local terraform directory
+**/.terraform/*
+
+# ignore all .tfvars files, which can contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ignore lock files
+.terraform.lock.*
+
+# ignore plan.* and *.out files
+plan.*
+*.out
